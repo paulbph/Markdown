@@ -4,7 +4,7 @@ Semantic UI是什麼?
 *	使RWD(Responsive Web Design)自適應網頁開發變得方便
 *	RWD簡單說是設計在各種裝置上適合瀏覽的網頁  
 
-Semantic UI的優點
+Semantic UI有什麼優點?
 =====================
 
 1.好用的Grid system
