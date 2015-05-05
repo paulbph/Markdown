@@ -55,7 +55,7 @@ Semantic UI的優點
 	![img1](images/SUdemo6.jpg	"demo")
 
 
-與Bootstrap的差別
+與Bootstrap的差異
 =====================
 1.	grid system
 	* 欄位數
@@ -75,6 +75,18 @@ Semantic UI的優點
 		![img1](images/SUdemo16.jpg	"demo")
 			
 	* Grid樣式:無
+
+	* 其他特色:
+		* Nestable
+		
+			![img1](images/SUdemo30.jpg	"demo")
+		* Offsets
+
+			![img1](images/SUdemo29.jpg	"demo")
+		* Column ordering
+		
+			![img1](images/SUdemo31.jpg	"demo")
+		
 	
 2. Tag套用樣式
 	*   button
@@ -91,7 +103,8 @@ Semantic UI的優點
 
 Friday首頁 RWD試作
 =====================
-![img1](images/SUdemo20.jpg	"demo")
+![img1](images/SUdemo20-1.jpg	"demo")
+![img1](images/SUdemo20-2.jpg	"demo")
 
 * Sidebar Menu
 
@@ -141,7 +154,6 @@ Friday首頁 RWD試作
 
 * Column wide set
 	
-	![img1](images/SUdemo23.jpg	"demo")
 	![img1](images/SUdemo24.jpg	"demo")
 	![img1](images/SUdemo26.jpg	"demo")
 
