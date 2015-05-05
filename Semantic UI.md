@@ -81,7 +81,7 @@ Semantic UI的優點
 		
 			![img1](images/SUdemo30.jpg	"demo")
 			
-			* Semantic UI相同效果
+			* 用Semantic UI實現相同效果
 			
 					<div class="ui grid">
 						<div class="twelve wide column">
@@ -101,7 +101,7 @@ Semantic UI的優點
 
 			![img1](images/SUdemo29.jpg	"demo")
 
-			* Semantic UI相同效果
+			* 用Semantic UI實現相同效果
 			
 					<div class="ui grid">
 						<div class="four wide column">
@@ -118,7 +118,7 @@ Semantic UI的優點
 		 
 			![img1](images/SUdemo31.jpg	"demo")
 			
-			* Semantic UI相同效果
+			* 用Semantic UI實現相同效果
 			
 					<div class="ui grid">
 						<div class="right floated twelve wide column">
