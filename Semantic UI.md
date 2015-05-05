@@ -80,13 +80,54 @@ Semantic UI的優點
 		* Nestable
 		
 			![img1](images/SUdemo30.jpg	"demo")
+			
+			* Semantic UI相同效果
+			
+					<div class="ui grid">
+						<div class="twelve wide column">
+							Level1: 12 column
+							<div class="ui grid">
+								<div class="eleven wide column">
+									Level2: 11 column
+								</div>
+								<div class="five wide column">
+									Level2: 5 column
+								</div>
+							</div>
+						</div>
+					</div>
+
 		* Offsets
 
 			![img1](images/SUdemo29.jpg	"demo")
+
+			* Semantic UI相同效果
+			
+					<div class="ui grid">
+						<div class="four wide column">
+							four wide column
+						</div>	
+						<div class="eight wide column">
+						
+						</div>
+						<div class="four wide column">
+							four wide column
+						</div>
+					</div>
 		* Column ordering
-		
+		 
 			![img1](images/SUdemo31.jpg	"demo")
-		
+			
+			* Semantic UI相同效果
+			
+					<div class="ui grid">
+						<div class="right floated twelve wide column">
+							twelve wide column
+						</div>	
+						<div class="left floated four wide column">
+							four wide column
+						</div>
+					</div>
 	
 2. Tag套用樣式
 	*   button
@@ -103,11 +144,13 @@ Semantic UI的優點
 
 Friday首頁 RWD試作
 =====================
+* 電腦
 ![img1](images/SUdemo20-1.jpg	"demo")
 ![img1](images/SUdemo20-2.jpg	"demo")
 
 * Sidebar Menu
-
+	* 手機
+	
 	![img1](images/SUdemo21.jpg	"demo")
 
 		<div class="ui labeled icon left inline vertical sidebar menu" style="width:50%">
@@ -141,7 +184,8 @@ Friday首頁 RWD試作
 		</div>
 
 * Menu hide
-
+	* 平版
+	
 	![img1](images/SUdemo22.jpg	"demo")
 	
 		<div id="hidemenu" class="three wide computer only column" style="padding-left:0px;padding-right:0px;">
@@ -153,8 +197,11 @@ Friday首頁 RWD試作
 		</div>
 
 * Column wide set
+	* 平版
 	
 	![img1](images/SUdemo24.jpg	"demo")
+	* 手機
+
 	![img1](images/SUdemo26.jpg	"demo")
 
 		<div class="ui padded grid">
@@ -168,7 +215,8 @@ Friday首頁 RWD試作
 		</div>		
 
 * AD不同裝置設定
-
+	* 平版
+	
 	![img1](images/SUdemo25.jpg	"demo")
 	
 		<!--computer only-->
@@ -231,8 +279,11 @@ Friday首頁 RWD試作
 		<!---->
 
 * equal height stretched row
-
+	* 電腦
+	
 	![img1](images/SUdemo27.jpg	"demo")
+	* 平版
+	
 	![img1](images/SUdemo28.jpg	"demo")
 
 		<div class="equal height stretched row">
