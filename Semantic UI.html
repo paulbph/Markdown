@@ -307,7 +307,7 @@ img {
 <ul>
 <li>
 <p>宣告方式</p>
-<pre><code>&lt;div class=&quot;ui grid&quot;&gt;
+<h1><pre><code>&lt;div class=&quot;ui grid&quot;&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;ui page grid&quot;&gt;
@@ -315,7 +315,7 @@ img {
 
 &lt;div class=&quot;ui two column grid&quot;&gt;
 &lt;/div&gt;
-</code></pre>
+</code></pre></h1>
 
 <p><img src="images/SUdemo1.jpg" alt="img1" title="demo" /></p>
 <p><img src="images/SUdemo3.jpg" alt="img1" title="demo" /></p>
@@ -325,20 +325,36 @@ img {
 <p>Grid樣式</p>
 <ul>
 <li>
-Divided Grid
-<img src="images/SUdemo7.jpg" alt="img1" title="demo" />
+<p>Divided Grid
+<img src="images/SUdemo7.jpg" alt="img1" title="demo" /></p>
+<pre><code>&lt;div class=&quot;ui divided grid&quot;&gt;
+&lt;/div&gt;
+</code></pre>
+
 </li>
 <li>
-Vertically Divided Grid
-<img src="images/SUdemo8.jpg" alt="img1" title="demo" />
+<p>Vertically Divided Grid
+<img src="images/SUdemo8.jpg" alt="img1" title="demo" /></p>
+<pre><code>&lt;div class=&quot;ui vertically divided grid&quot;&gt;
+&lt;/div&gt;
+</code></pre>
+
 </li>
 <li>
-Celled Grid
-<img src="images/SUdemo9.jpg" alt="img1" title="demo" />
+<p>Celled Grid
+<img src="images/SUdemo9.jpg" alt="img1" title="demo" /></p>
+<pre><code>&lt;div class=&quot;ui celled grid&quot;&gt;
+&lt;/div&gt;
+</code></pre>
+
 </li>
 <li>
-Internally Celled Grid
-<img src="images/SUdemo10.jpg" alt="img1" title="demo" />
+<p>Internally Celled Grid
+<img src="images/SUdemo10.jpg" alt="img1" title="demo" /></p>
+<pre><code>&lt;div class=&quot;ui internally celled grid&quot;&gt;
+&lt;/div&gt;
+</code></pre>
+
 </li>
 </ul>
 </li>
@@ -350,14 +366,29 @@ Internally Celled Grid
 <li>
 <p>button</p>
 <p><img src="images/SUdemo4.jpg" alt="img1" title="demo" /></p>
+<pre><code>&lt;div class=&quot;ui button&quot;&gt;
+&lt;/div&gt;
+</code></pre>
+
 </li>
 <li>
 <p>label</p>
 <p><img src="images/SUdemo5.jpg" alt="img1" title="demo" /></p>
+<pre><code>&lt;div class=&quot;ui label&quot;&gt;
+&lt;/div&gt;
+</code></pre>
+
 </li>
 <li>
 <p>list</p>
 <p><img src="images/SUdemo6.jpg" alt="img1" title="demo" /></p>
+<pre><code>&lt;div class=&quot;ui list&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;.....&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;.....&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;.....&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
 </li>
 </ul>
 <h1>與Bootstrap的差異</h1>
@@ -377,13 +408,13 @@ Internally Celled Grid
 </li>
 <li>
 <p>宣告方式</p>
-<pre><code>&lt;div class=&quot;container&quot;&gt;
+<h1><pre><code>&lt;div class=&quot;container&quot;&gt;
     ...
 &lt;/div&gt;  
 &lt;div class=&quot;container-fluid&quot;&gt;
   ...
 &lt;/div&gt;
-</code></pre>
+</code></pre></h1>
 
 <p><img src="images/SUdemo16.jpg" alt="img1" title="demo" /></p>
 </li>
@@ -468,27 +499,63 @@ Internally Celled Grid
 <li>
 <p>button</p>
 <p><img src="images/SUdemo17.jpg" alt="img1" title="demo" /></p>
+<pre><code>&lt;a class=&quot;btn btn-default&quot; href=&quot;#&quot; role=&quot;button&quot;&gt;Link&lt;/a&gt;
+&lt;button class=&quot;btn btn-default&quot; type=&quot;submit&quot;&gt;Button&lt;/button&gt;
+&lt;input class=&quot;btn btn-default&quot; type=&quot;button&quot; value=&quot;Input&quot;&gt;
+&lt;input class=&quot;btn btn-default&quot; type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+</code></pre>
+
 </li>
 <li>
 <p>label</p>
 <p><img src="images/SUdemo18.jpg" alt="img1" title="demo" /></p>
+<pre><code>&lt;h3&gt;Example heading &lt;span class=&quot;label label-default&quot;&gt;New&lt;/span&gt;&lt;/h3&gt;
+</code></pre>
+
 </li>
 <li>
 <p>list</p>
 <p><img src="images/SUdemo19.jpg" alt="img1" title="demo" /></p>
+<pre><code>&lt;ul class=&quot;list-group&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;Cras justo odio&lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;Dapibus ac facilisis in&lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;Morbi leo risus&lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;Porta ac consectetur ac&lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;Vestibulum at eros&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
 </li>
 </ul>
 </li>
 </ol>
 <h1>Friday首頁 RWD試作</h1>
+<h2>起因</h2>
+<p>在研究了Semantic　UI幾天時間後,Kim哥建議把Friday首頁RWD化,
+起初覺得這很麻煩,但在研究了一會Friday手機版的網頁後,覺得這並不好看</p>
+<p>1.橫向MENU不友善</p>
+<ul>
+<li>主項目無法一目了然,也沒有商品以外的項目可選</li>
+</ul>
+<p>2.商品項目佔整個首頁9成</p>
+<ul>
+<li>一個電商網站沒有任何促銷或優惠資訊的banner及廣告或其他要素,這是個奇怪的設計</li>
+</ul>
+<p>3.手機版與電腦版網站是分開的</p>
+<ul>
+<li>這是最重要的部分,這種做法無疑大大增加了開發與之後的維護成本</li>
+<li>RWD化不僅開發快速簡易,事後也只需要維護一個網站</li>
+</ul>
+<p>基於以上幾點,就嘗試把他作出來了</p>
+<h2>範例</h2>
 <ul>
 <li>
-<p>電腦
+<p id="extop">電腦
 <img src="images/SUdemo20-1.jpg" alt="img1" title="demo" />
 <img src="images/SUdemo20-2.jpg" alt="img1" title="demo" /></p>
 </li>
 <li>
-<p>Sidebar Menu</p>
+<p>Sidebar Menu</p><a href="#extop" style="float:right;">To index sample</a>
 <ul>
 <li>手機</li>
 </ul>
@@ -526,7 +593,7 @@ MENU
 
 </li>
 <li>
-<p>Menu hide</p>
+<p>Menu hide</p><a href="#extop" style="float:right;">To index sample</a>
 <ul>
 <li>平版</li>
 </ul>
@@ -542,7 +609,7 @@ MENU
 
 </li>
 <li>
-<p>Column wide set</p>
+<p>Column wide set</p><a href="#extop" style="float:right;">To index sample</a>
 <ul>
 <li>平版</li>
 </ul>
@@ -564,7 +631,7 @@ MENU
 
 </li>
 <li>
-<p>AD不同裝置設定</p>
+<p>AD不同裝置設定</p><a href="#extop" style="float:right;">To index sample</a>
 <ul>
 <li>平版</li>
 </ul>
@@ -631,7 +698,7 @@ MENU
 
 </li>
 <li>
-<p>equal height stretched row</p>
+<p>equal height stretched row</p><a href="#extop" style="float:right;">To index sample</a>
 <ul>
 <li>電腦</li>
 </ul>
@@ -661,6 +728,25 @@ MENU
 
 </li>
 </ul>
+<h2>結語</h2>
+<p>RWD化實際上只作了三天</p>
+<p>第一天:</p>
+<ul>
+<li>下載Friday網站上的圖片素材</li>
+<li>規劃grid區塊</li>
+<li>grid 切版</li>
+</ul>
+<p>第二天: </p>
+<ul>
+<li>實作各區塊內容完成PC版網站</li>
+<li>實作RWD化</li>
+</ul>
+<p>第三天: </p>
+<ul>
+<li>實作Sidebar Menu</li>
+<li>檢查並移除在手機版或平版上不合理的區塊或項目</li>
+</ul>
+<p>因此非常推薦使用Semantic UI,class定義比bootstrap簡潔並開發快速</p>
 
 </body>
 </html>

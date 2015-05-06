@@ -33,12 +33,27 @@ Semantic UI的優點
 	* Grid樣式
 		* Divided Grid
 			![img1](images/SUdemo7.jpg	"demo")
+
+				<div class="ui divided grid">
+				</div>
+
 		* Vertically Divided Grid
 			![img1](images/SUdemo8.jpg	"demo")
+
+				<div class="ui vertically divided grid">
+				</div>
+
 		* Celled Grid
 			![img1](images/SUdemo9.jpg	"demo")
+
+				<div class="ui celled grid">
+				</div>
+
 		* Internally Celled Grid
 			![img1](images/SUdemo10.jpg	"demo")
+
+				<div class="ui internally celled grid">
+				</div>
 
 
 
@@ -47,12 +62,24 @@ Semantic UI的優點
 *   button
 	
 	![img1](images/SUdemo4.jpg	"demo")
+
+		<div class="ui button">
+		</div>
 *   label
 
 	![img1](images/SUdemo5.jpg	"demo")
+
+		<div class="ui label">
+		</div>
 *   list
 
 	![img1](images/SUdemo6.jpg	"demo")
+
+		<div class="ui list">
+			<div class="item">.....</div>
+			<div class="item">.....</div>
+			<div class="item">.....</div>
+		</div>
 
 
 與Bootstrap的差異
@@ -133,17 +160,56 @@ Semantic UI的優點
 	*   button
 		
 		![img1](images/SUdemo17.jpg	"demo")
+
+			<a class="btn btn-default" href="#" role="button">Link</a>
+			<button class="btn btn-default" type="submit">Button</button>
+			<input class="btn btn-default" type="button" value="Input">
+			<input class="btn btn-default" type="submit" value="Submit">
 	*   label
 	
 		![img1](images/SUdemo18.jpg	"demo")
+
+			<h3>Example heading <span class="label label-default">New</span></h3>
 	*   list
 	
 		![img1](images/SUdemo19.jpg	"demo")
+
+			<ul class="list-group">
+			  <li class="list-group-item">Cras justo odio</li>
+			  <li class="list-group-item">Dapibus ac facilisis in</li>
+			  <li class="list-group-item">Morbi leo risus</li>
+			  <li class="list-group-item">Porta ac consectetur ac</li>
+			  <li class="list-group-item">Vestibulum at eros</li>
+			</ul>
 	
 
 
 Friday首頁 RWD試作
 =====================
+
+起因
+------
+在研究了Semantic　UI幾天時間後,Kim哥建議把Friday首頁RWD化,
+起初覺得這很麻煩,但在研究了一會Friday手機版的網頁後,覺得這並不好看
+
+1.橫向MENU不友善
+
+* 主項目無法一目了然,也沒有商品以外的項目可選
+
+2.商品項目佔整個首頁9成
+
+* 一個電商網站沒有任何促銷或優惠資訊的banner及廣告或其他要素,這是個奇怪的設計
+
+3.手機版與電腦版網站是分開的
+
+* 這是最重要的部分,這種做法無疑大大增加了開發與之後的維護成本
+* RWD化不僅開發快速簡易,事後也只需要維護一個網站
+ 
+基於以上幾點,就嘗試把他作出來了
+
+範例
+----------
+
 * 電腦
 ![img1](images/SUdemo20-1.jpg	"demo")
 ![img1](images/SUdemo20-2.jpg	"demo")
@@ -303,3 +369,26 @@ Friday首頁 RWD試作
 				</div>
 			</div>
 		</div>
+
+
+結語
+----------
+RWD化實際上只作了三天
+
+第一天:
+		
+* 下載Friday網站上的圖片素材,
+* 規劃grid區塊
+* grid 切版
+
+第二天: 
+
+* 實作各區塊內容完成PC版網站
+* 實作RWD化
+
+第三天: 
+
+* 實作Sidebar Menu
+* 檢查並移除在手機版或平版上不合理的區塊或項目
+
+因此非常推薦使用Semantic UI,class定義比bootstrap簡潔並開發快速
