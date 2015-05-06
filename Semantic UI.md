@@ -207,12 +207,14 @@ Friday首頁 RWD試作
  
 基於以上幾點,就嘗試把他作出來了
 
-範例
+範例 
 ----------
+![img1](images/150406181757.jpg	"demo")
 
 * 電腦
 ![img1](images/SUdemo20-1.jpg	"demo")
 ![img1](images/SUdemo20-2.jpg	"demo")
+
 
 * Sidebar Menu
 	* 手機
